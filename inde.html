@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie & Music Quiz | Harleen Kaur</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Decorative Circles -->
+    <div class="circle one"></div>
+    <div class="circle two"></div>
+
+    <!-- Main Container -->
+
+    <div class="container">
+
+        <!-- ================= HOME SCREEN ================= -->
+
+        <section id="start-screen">
+
+            <div class="hero">
+
+                <div class="emoji">
+                    🎬 🎵
+                </div>
+
+                <h1>Movie & Music Quiz</h1>
+
+                <p>
+                    Test your knowledge of iconic movies,
+                    unforgettable music and legendary artists.
+                </p>
+
+                <button id="start-btn">
+                    Start Quiz →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= QUIZ SCREEN ================= -->
+
+        <section id="quiz-screen" class="hidden">
+
+            <!-- Header -->
+
+            <div class="quiz-header">
+
+                <h2>Question</h2>
+
+                <span id="question-number">
+                    1 / 15
+                </span>
+
+            </div>
+
+            <!-- Progress -->
+
+            <div class="progress">
+
+                <div
+                    class="progress-fill"
+                    id="progress-fill">
+                </div>
+
+            </div>
+
+            <!-- Question Card -->
+
+            <div class="question-card">
+
+                <h3 id="question-text">
+
+                    Question appears here...
+
+                </h3>
+
+            </div>
+
+            <!-- Buttons -->
+
+            <div class="buttons">
+
+                <button
+                    class="answer-btn true"
+                    id="true-btn">
+
+                    ✅ True
+
+                </button>
+
+                <button
+                    class="answer-btn false"
+                    id="false-btn">
+
+                    ❌ False
+
+                </button>
+
+            </div>
+
+            <!-- Feedback -->
+
+            <div id="feedback">
+
+            </div>
+
+            <!-- Score -->
+
+            <div class="score-box">
+
+                <h4>
+
+                    Score :
+                    <span id="score">
+                        0
+                    </span>
+
+                </h4>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= RESULT SCREEN ================= -->
+
+        <section id="result-screen" class="hidden">
+
+            <div class="result-card">
+
+                <div class="trophy">
+
+                    🏆
+
+                </div>
+
+                <h1>
+
+                    Quiz Completed!
+
+                </h1>
+
+                <p>
+
+                    You scored
+
+                </p>
+
+                <h2 id="final-score">
+
+                    0 / 15
+
+                </h2>
+
+                <button id="restart-btn">
+
+                    Play Again
+
+                </button>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+
+    <footer>
+
+        Designed & Developed by
+        <span>
+
+            Harleen Kaur
+
+        </span>
+
+    </footer>
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
